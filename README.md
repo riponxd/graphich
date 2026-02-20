@@ -134,3 +134,82 @@ Use the VS Code integrated terminal to compile and run your OpenGL program.
 </p>
 
 ---
+
+### 1️⃣ Download FreeGLUT
+
+Go to the official site:
+
+🔗 https://www.transmissionzero.co.uk/software/freeglut-devel/
+
+Download:
+- **FreeGLUT Windows 32-bit or 64-bit ZIP**  
+  (Choose according to your system architecture)
+
+📸 *[Add your download screenshot here]*
+
+---
+
+### 2️⃣ Extract & Verify Folder Structure
+
+Extract the ZIP file.  
+For example, extract it to:
+```bash
+C:\FreeGLUT
+```
+
+Your folder structure should look like this:
+```bash
+C:\FreeGLUT
+├── include\GL\glut.h
+├── lib\libfreeglut.a
+└── bin\freeglut.dll
+```
+Make sure all files are properly extracted.
+
+---
+
+### 3️⃣ Place the Required DLL File
+
+The `freeglut.dll` file must be available in the same folder where your `.exe` file is created.
+
+For example, if your project output folder is:
+```bash
+C:\Users\Shahriar Ahammed\Desktop\graphics-design-vscode-environment-setup\Main-Folder
+```
+Then:
+
+- Copy `C:\FreeGLUT\bin\freeglut.dll`
+- Paste it inside the `Main-Folder`
+
+This ensures your program runs without DLL errors.
+
+---
+
+### 4️⃣ Compile & Run the Program
+
+Open **PowerShell** or **Command Prompt** in your project folder and run:
+
+#### 🛠 Compile
+
+```bash
+g++ MyProject.cpp -IC:\FreeGLUT\include -LC:\FreeGLUT\lib -lfreeglut -lopengl32 -lglu32 -o MyProject.exe
+```
+
+### ▶ Run
+```bash
+.\MyProject.exe
+```
+
+If everything is configured correctly:
+- The console may ask for input
+- After providing input, the OpenGL window will open successfully 🚀
+
+---
+
+✅ Notes
+
+- Ensure you are using the correct x64 or x86 library based on your system.
+- Make sure freeglut.dll exists in the same directory as the executable.
+- If you get a missing DLL error, double-check the DLL location.
+
+---
