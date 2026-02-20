@@ -1,7 +1,7 @@
 <h2 align="center">🎮 OpenGL (FreeGLUT) Environment Setup in VS Code</h2>
 
 <p align="center">
-This guide explains how to install and configure **OpenGL (FreeGLUT)** with **VS Code** on **Windows**, using **MSYS2 (MinGW)**.  
+This guide explains how to install and configure <b>OpenGL (FreeGLUT)</b> with <b>VS Code</b> on <b>Windows</b>, using <b>MSYS2 (MinGW)</b>.  
 Follow the steps carefully to set up a complete graphics development environment.
 </p>
 
