@@ -123,3 +123,12 @@ ${env:MSYS2}/mingw64/include/
 ## 📚 Reference
 **YouTube video used as learning reference:**
 This repository is based on the [OpenGL in Visual Studio Code Bangla ](https://www.youtube.com/watch?v=Bl0tFOpm5RI).
+
+---
+<h2 align="center">🚀 OpenGL Run with VS Code Terminal</h2>
+
+<p align="center">
+Use the VS Code integrated terminal to compile and run your OpenGL program.
+</p>
+
+---
