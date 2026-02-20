@@ -147,7 +147,7 @@ Use the VS Code integrated terminal to compile and run your OpenGL program.
 ### 📸 Download Page Screenshot
 
 <p align="center">
-  <img src="https://i.postimg.cc/rmKyrKs6/Screenshot.png" alt="FreeGLUT Download Page Screenshot" width="800"/>
+  <img src="https://i.postimg.cc/rmKyrKs6/Screenshot.png" alt="FreeGLUT Download Page Screenshot" width="400"/>
 </p>
 
 ---
