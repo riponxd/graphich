@@ -137,17 +137,31 @@ Use the VS Code integrated terminal to compile and run your OpenGL program.
 
 ### 1️⃣ Download FreeGLUT
 
-1. Go to the official site:  
-👉 Site URL: [FreeGLUT for Windows ➚ ](https://www.transmissionzero.co.uk/software/freeglut-devel/)
- 
-2. Download:
-- **FreeGLUT Windows 32-bit or 64-bit ZIP**  
-  (Choose according to your system architecture)
+Follow the steps below to download FreeGLUT for Windows:
 
-### 📸 Download Page Screenshot
+1. Visit the official website:  
+   🔗 **[FreeGLUT for Windows ➚](https://www.transmissionzero.co.uk/software/freeglut-devel/)**
+
+2. Download the appropriate ZIP file:
+   - **FreeGLUT Windows 32-bit** or  
+   - **FreeGLUT Windows 64-bit**  
+   
+   ⚠ Make sure to choose the version that matches your system architecture.
+
+---
+
+### 📸 Download Page Preview
 
 <p align="center">
-  <img src="https://i.postimg.cc/rmKyrKs6/Screenshot.png" alt="FreeGLUT Download Page Screenshot" width="400"/>
+  <img 
+    src="https://i.postimg.cc/rmKyrKs6/Screenshot.png" 
+    alt="FreeGLUT Windows Download Page" 
+    width="500"
+  />
+</p>
+
+<p align="center">
+  <em>FreeGLUT official download page</em>
 </p>
 
 ---
@@ -197,13 +211,13 @@ This ensures your program runs without DLL errors.
 
 Open **PowerShell** or **Command Prompt** in your project folder and run:
 
-#### 🛠 Compile
+#### 🛠 Compile Terminal
 
 ```bash
 g++ MyProject.cpp -IC:\FreeGLUT\include -LC:\FreeGLUT\lib -lfreeglut -lopengl32 -lglu32 -o MyProject.exe
 ```
 
-### ▶ Run
+#### ▶ Run
 ```bash
 .\MyProject.exe
 ```
@@ -214,7 +228,7 @@ If everything is configured correctly:
 
 ---
 
-✅ Notes
+### ✅ Notes
 
 - Ensure you are using the correct x64 or x86 library based on your system.
 - Make sure freeglut.dll exists in the same directory as the executable.
