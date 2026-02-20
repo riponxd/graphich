@@ -163,9 +163,14 @@ C:\FreeGLUT
 Your folder structure should look like this:
 ```bash
 C:\FreeGLUT
-├── include\GL\glut.h
-├── lib\libfreeglut.a
-└── bin\freeglut.dll
+├── include
+│   └── GL
+│       └── glut.h
+├── lib
+│   └── x64  (or x86)
+│       └── freeglut.lib
+└── bin
+    └── freeglut.dll
 ```
 Make sure all files are properly extracted.
 
