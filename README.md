@@ -144,7 +144,11 @@ Use the VS Code integrated terminal to compile and run your OpenGL program.
 - **FreeGLUT Windows 32-bit or 64-bit ZIP**  
   (Choose according to your system architecture)
 
-📸 *[Add your download screenshot here]*
+### 📸 Download Page Screenshot
+
+<p align="center">
+  <img src="https://i.postimg.cc/rmKyrKs6/Screenshot.png" alt="FreeGLUT Download Page Screenshot" width="800"/>
+</p>
 
 ---
 
