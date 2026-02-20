@@ -138,7 +138,7 @@ Use the VS Code integrated terminal to compile and run your OpenGL program.
 ### 1️⃣ Download FreeGLUT
 
 1. Go to the official site:  
-👉 Site URL: [FreeGLUT for Windows ➚ ](https://www.transmissionzero.co.uk/software/freeglut-devel/).
+👉 Site URL: [FreeGLUT for Windows ➚ ](https://www.transmissionzero.co.uk/software/freeglut-devel/)
  
 2. Download:
 - **FreeGLUT Windows 32-bit or 64-bit ZIP**  
